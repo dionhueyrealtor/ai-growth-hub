@@ -29,8 +29,8 @@ const Footer = () => {
             <a href="/privacy-policy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Terms of Use
+            <a href="/termsofservice" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Terms of Service
             </a>
           </div>
         </div>
