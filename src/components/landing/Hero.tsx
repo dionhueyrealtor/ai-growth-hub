@@ -51,7 +51,7 @@ const Hero = () => {
             size="lg"
             className="gradient-bg shadow-glow mt-10 border-0 text-base font-semibold text-accent-foreground hover:opacity-90"
           >
-            <a href="#offer">Book Your Free Growth Call</a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book Your Free Growth Call</a>
           </Button>
         </div>
 

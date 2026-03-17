@@ -66,7 +66,7 @@ const Services = () => {
             size="lg"
             className="gradient-bg shadow-glow mt-10 border-0 text-base font-semibold text-accent-foreground hover:opacity-90"
           >
-            <a href="#offer">Book a Free Consultation</a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
           </Button>
         </div>
       </section>
@@ -101,7 +101,7 @@ const Services = () => {
                     asChild
                     className="gradient-bg shadow-glow mt-6 w-full border-0 text-accent-foreground hover:opacity-90"
                   >
-                    <a href="#offer">Book a Consultation</a>
+                    <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book a Consultation</a>
                   </Button>
                 </div>
               );
@@ -143,7 +143,7 @@ const Services = () => {
             size="lg"
             className="mt-10 bg-accent-foreground text-primary font-semibold hover:bg-accent-foreground/90"
           >
-            <a href="#offer">Book Your Free Consultation</a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book Your Free Consultation</a>
           </Button>
         </div>
       </section>
