@@ -54,7 +54,7 @@ const Services = () => {
       <section className="relative overflow-hidden py-20 md:py-28">
         <div className="container mx-auto max-w-3xl px-6 text-center">
           <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-foreground md:text-5xl lg:text-6xl">
-            AI Systems That Turn Every Lead Into a{" "}
+            AI Systems That Turn Leads Into a{" "}
             <span className="gradient-text">Booked Appointment.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
