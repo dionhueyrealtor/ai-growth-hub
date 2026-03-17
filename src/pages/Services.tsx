@@ -101,7 +101,7 @@ const Services = () => {
                     asChild
                     className="gradient-bg shadow-glow mt-6 w-full border-0 text-accent-foreground hover:opacity-90"
                   >
-                    <a href="#offer">Book a Consultation</a>
+                    <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book a Consultation</a>
                   </Button>
                 </div>
               );
