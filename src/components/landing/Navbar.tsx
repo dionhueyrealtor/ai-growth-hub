@@ -13,13 +13,22 @@ const Navbar = ({ pageTitle }: NavbarProps) => {
     <nav className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="container mx-auto flex h-full items-center justify-between px-6">
         <a href="/" className="text-lg font-bold tracking-tight text-foreground">
-          {pageTitle ? pageTitle : "AI Employee Factory"}
+          {pageTitle ? (
+            pageTitle
+          ) : (
+            <>
+              <span className="gradient-text">AI</span> Employee Factory
+            </>
+          )}
         </a>
 
         {/* Desktop */}
         <div className="hidden items-center gap-6 md:flex">
-          <a href="#" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+          <a href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
             Home
+          </a>
+          <a href="/services" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+            Services
           </a>
           <Button
             asChild
@@ -42,8 +51,11 @@ const Navbar = ({ pageTitle }: NavbarProps) => {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="border-b border-border bg-background px-6 py-4 md:hidden">
-          <a href="#" className="block py-2 text-sm font-medium text-muted-foreground">
+          <a href="/" className="block py-2 text-sm font-medium text-muted-foreground">
             Home
+          </a>
+          <a href="/services" className="block py-2 text-sm font-medium text-muted-foreground">
+            Services
           </a>
           <Button
             asChild
