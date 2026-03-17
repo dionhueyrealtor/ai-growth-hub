@@ -26,7 +26,7 @@ const Footer = () => {
 
           {/* Links */}
           <div className="md:col-span-2 flex items-end justify-start md:justify-end gap-6">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="/privacy-policy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">

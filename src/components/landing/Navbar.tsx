@@ -2,14 +2,18 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const Navbar = () => {
+interface NavbarProps {
+  pageTitle?: string;
+}
+
+const Navbar = ({ pageTitle }: NavbarProps) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50 h-16 border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="container mx-auto flex h-full items-center justify-between px-6">
-        <a href="#" className="text-lg font-bold tracking-tight text-foreground">
-          AI Employee Factory
+        <a href="/" className="text-lg font-bold tracking-tight text-foreground">
+          {pageTitle ? pageTitle : "AI Employee Factory"}
         </a>
 
         {/* Desktop */}
