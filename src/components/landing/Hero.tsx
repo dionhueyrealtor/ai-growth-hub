@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="relative mx-auto w-full max-w-sm md:mx-0">
           <div className="rounded-2xl border border-border bg-card p-6 shadow-card">
             <div className="mb-4 flex items-center gap-2">
-              <div className="h-2.5 w-2.5 rounded-full bg-green-500 animate-status-pulse" />
+              <div className="h-2.5 w-2.5 rounded-full bg-accent animate-status-pulse" />
               <span className="text-xs font-medium text-muted-foreground">AI Agent Live</span>
             </div>
             <div className="space-y-3">
