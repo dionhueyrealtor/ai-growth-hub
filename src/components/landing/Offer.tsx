@@ -44,7 +44,7 @@ const Offer = () => {
             size="lg"
             className="mt-10 bg-primary-foreground text-primary font-semibold text-base hover:bg-primary-foreground/90 shadow-glow"
           >
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">
               Schedule Your Free 20-Minute Demo
             </a>
           </Button>

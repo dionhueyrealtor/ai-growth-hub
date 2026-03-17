@@ -143,7 +143,7 @@ const Services = () => {
             size="lg"
             className="mt-10 bg-accent-foreground text-primary font-semibold hover:bg-accent-foreground/90"
           >
-            <a href="#offer">Book Your Free Consultation</a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer">Book Your Free Consultation</a>
           </Button>
         </div>
       </section>

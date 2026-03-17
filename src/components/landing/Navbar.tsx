@@ -61,7 +61,7 @@ const Navbar = ({ pageTitle }: NavbarProps) => {
             asChild
             className="gradient-bg shadow-glow mt-2 w-full border-0 text-accent-foreground"
           >
-            <a href="#offer" onClick={() => setMobileOpen(false)}>Book Appointment</a>
+            <a href="https://api.leadconnectorhq.com/widget/booking/9BPqaisHVu2RRPbF1tcv" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>Book Appointment</a>
           </Button>
         </div>
       )}
