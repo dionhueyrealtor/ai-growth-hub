@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Check, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -9,6 +10,16 @@ const included = [
 ];
 
 const Offer = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://link.aiemployeefactory.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="offer" className="py-20 md:py-28 bg-primary text-primary-foreground">
       <div className="container mx-auto px-6">
@@ -48,6 +59,27 @@ const Offer = () => {
               Schedule Your Free 20-Minute Demo
             </a>
           </Button>
+
+          {/* Embedded Lead Form */}
+          <div className="mt-10 w-full" style={{ minHeight: "500px" }}>
+            <iframe
+              src="https://link.aiemployeefactory.com/widget/form/yuF3rQSbbvIi1gRqKprY"
+              style={{ width: "100%", height: "500px", border: "none", borderRadius: "3px" }}
+              id="inline-yuF3rQSbbvIi1gRqKprY"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Comp Lead Form"
+              data-height="undefined"
+              data-layout-iframe-id="inline-yuF3rQSbbvIi1gRqKprY"
+              data-form-id="yuF3rQSbbvIi1gRqKprY"
+              title="Comp Lead Form"
+            />
+          </div>
         </div>
       </div>
     </section>
