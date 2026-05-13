@@ -173,7 +173,7 @@ const Pricing = () => {
                   asChild
                   className="gradient-bg shadow-glow mt-6 w-full border-0 text-accent-foreground hover:opacity-90"
                 >
-                  <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                  <a href={plan.checkoutUrl} target="_blank" rel="noopener noreferrer">
                     Get Started
                   </a>
                 </Button>
