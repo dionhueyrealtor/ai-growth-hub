@@ -30,6 +30,9 @@ const Navbar = ({ pageTitle }: NavbarProps) => {
           <a href="/services" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
             Services
           </a>
+          <a href="/pricing" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+            Pricing
+          </a>
           <Button
             asChild
             className="gradient-bg shadow-glow border-0 text-accent-foreground hover:opacity-90"
@@ -56,6 +59,9 @@ const Navbar = ({ pageTitle }: NavbarProps) => {
           </a>
           <a href="/services" className="block py-2 text-sm font-medium text-muted-foreground">
             Services
+          </a>
+          <a href="/pricing" className="block py-2 text-sm font-medium text-muted-foreground">
+            Pricing
           </a>
           <Button
             asChild
