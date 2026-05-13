@@ -20,6 +20,7 @@ const plans: Plan[] = [
     name: "Starter Plan",
     monthly: 197,
     annual: 1970,
+    checkoutUrl: "https://buy.stripe.com/8x28wOgG4eJQ2nTdOz0Jq0c",
     features: [
       "Instant speed-to-lead response (24/7)",
       "Multichannel AI across SMS, chat, and email",
