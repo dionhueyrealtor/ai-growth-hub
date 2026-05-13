@@ -62,6 +62,7 @@ const plans: Plan[] = [
     name: "Elite Plan",
     monthly: 1197,
     annual: 11970,
+    checkoutUrl: "https://buy.stripe.com/5kQdR8dtS7hobYtcKv0Jq0e",
     features: [
       "Everything in Scale, plus:",
       "Unlimited active leads in CRM",
