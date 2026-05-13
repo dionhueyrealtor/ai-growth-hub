@@ -12,6 +12,7 @@ type Plan = {
   annual: number;
   features: string[];
   popular?: boolean;
+  checkoutUrl: string;
 };
 
 const plans: Plan[] = [
@@ -19,6 +20,7 @@ const plans: Plan[] = [
     name: "Starter Plan",
     monthly: 197,
     annual: 1970,
+    checkoutUrl: "https://buy.stripe.com/8x28wOgG4eJQ2nTdOz0Jq0c",
     features: [
       "Instant speed-to-lead response (24/7)",
       "Multichannel AI across SMS, chat, and email",
@@ -36,6 +38,7 @@ const plans: Plan[] = [
     name: "Pro Plan",
     monthly: 497,
     annual: 4970,
+    checkoutUrl: "https://buy.stripe.com/14A8wOexW59g4w18uf0Jq09",
     features: [
       "Everything in Starter, plus:",
       "Up to 1,000 active leads in CRM",
@@ -47,6 +50,7 @@ const plans: Plan[] = [
     monthly: 797,
     annual: 7970,
     popular: true,
+    checkoutUrl: "https://buy.stripe.com/aFafZg61q45c6E94dZ0Jq0d",
     features: [
       "Everything in Pro, plus:",
       "Up to 2,500 active leads in CRM",
@@ -58,6 +62,7 @@ const plans: Plan[] = [
     name: "Elite Plan",
     monthly: 1197,
     annual: 11970,
+    checkoutUrl: "https://buy.stripe.com/5kQdR8dtS7hobYtcKv0Jq0e",
     features: [
       "Everything in Scale, plus:",
       "Unlimited active leads in CRM",
@@ -168,7 +173,7 @@ const Pricing = () => {
                   asChild
                   className="gradient-bg shadow-glow mt-6 w-full border-0 text-accent-foreground hover:opacity-90"
                 >
-                  <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                  <a href={plan.checkoutUrl} target="_blank" rel="noopener noreferrer">
                     Get Started
                   </a>
                 </Button>
