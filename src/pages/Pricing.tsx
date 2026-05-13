@@ -28,7 +28,7 @@ const plans: Plan[] = [
       "Easy A2P registration + guided setup",
       "Ongoing support",
       "Cancel anytime",
-      "Up to 500 active leads in Rainmaker",
+      "Up to 500 active leads in CRM",
       "1 team member included",
     ],
   },
@@ -38,7 +38,7 @@ const plans: Plan[] = [
     annual: 4970,
     features: [
       "Everything in Starter, plus:",
-      "Up to 1,000 active leads in Rainmaker",
+      "Up to 1,000 active leads in CRM",
       "Up to 3 team members included",
     ],
   },
@@ -49,7 +49,7 @@ const plans: Plan[] = [
     popular: true,
     features: [
       "Everything in Pro, plus:",
-      "Up to 2,500 active leads in Rainmaker",
+      "Up to 2,500 active leads in CRM",
       "Up to 5 team members included",
       "Exclusive Voice AI",
     ],
@@ -60,7 +60,7 @@ const plans: Plan[] = [
     annual: 11970,
     features: [
       "Everything in Scale, plus:",
-      "Unlimited active leads in Rainmaker",
+      "Unlimited active leads in CRM",
       "Up to 10 team members included",
       "Exclusive Voice AI (priority access)",
     ],
