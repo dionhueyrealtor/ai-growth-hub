@@ -50,6 +50,7 @@ const plans: Plan[] = [
     monthly: 797,
     annual: 7970,
     popular: true,
+    checkoutUrl: "https://buy.stripe.com/aFafZg61q45c6E94dZ0Jq0d",
     features: [
       "Everything in Pro, plus:",
       "Up to 2,500 active leads in CRM",
