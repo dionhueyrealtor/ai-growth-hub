@@ -12,6 +12,7 @@ type Plan = {
   annual: number;
   features: string[];
   popular?: boolean;
+  checkoutUrl: string;
 };
 
 const plans: Plan[] = [
